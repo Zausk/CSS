@@ -1,0 +1,106 @@
+p {
+    color:darkblue;
+   
+}
+
+/* Classes e ids */ 
+
+.esses-sao-iguais {
+    background-color:aqua;
+    color: darkslategrey;
+}
+
+#primeiro-paragrafo {
+    background-color: rgb(225, 116, 138);
+    color:mediumorchid;
+}    
+
+/* Para modificar mais de um elemento */ 
+
+h1, h2{
+     background-color: cadetblue;
+     color: rgb(47, 27, 3);
+}
+
+/* Eu quero todos os elementos */
+
+/*
+
+* {
+   font-style: italic;
+}
+
+*/ 
+
+/* Tipos de cores */
+
+.cor {
+    background-color: black;
+    color:#139
+}   
+
+
+.rgb {
+    background-color: rgb(254, 3, 3);
+    color: rgb(111, 174, 195);
+}
+
+.hexa {
+    background-color: rgb(254, 3, 3);
+    color: #139 0 0;
+}   
+
+.hsl {
+    background-color: black;
+    color: lightskyblue;
+}
+
+/* Tipo de fontes */ 
+
+.fontes.um {
+    font-family:'Courier New';
+}
+
+.fontes.dois {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.fontes.tres {
+    font-family:'Segoe UI';
+}
+
+.fontes.externa {
+font-family:'Roboto';
+}
+
+/* Alinhamento texto */
+
+.paragrafo {
+    text-align: center;
+}
+
+.minusculo {
+    text-transform: uppercase;
+    text-align:center; 
+}
+
+/* Customizando o Link */ 
+
+
+.link-google {
+    color: deeppink;
+    text-decoration: none; 
+    background-color: aqua ;
+    border: 2xp solid  blue;
+    border-radius: 5px; 
+    width: 20px;
+    height: 20xp;
+    text-align: center;
+}
+
+.link-google:hover {
+    background-color: blueviolet ;
+    color: black;
+    curs: help;
+    text-align: left;
+}
